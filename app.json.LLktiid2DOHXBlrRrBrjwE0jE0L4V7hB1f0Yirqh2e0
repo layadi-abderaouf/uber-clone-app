@@ -20,11 +20,10 @@
           "origin": "https://uber.com/"
         }
       ],
-      "expo-font",
       [
-        "@stripe/stripe-react-native",
+        "react-native-maps",
         {
-          "merchantIdentifier": "merchant.com.myuberclone"
+          "googleMapsApiKey": ""
         }
       ]
     ],
@@ -46,7 +45,7 @@
     "ios": {
       "supportsTablet": true,
       "config": {
-        "googleMapsApiKey": "AIzaSyBx0BaEuT8rrkvLmyyjcEn0wpWSuZJY0HE"
+        "googleMapsApiKey": ""
       }
     },
     "android": {
@@ -56,9 +55,10 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBx0BaEuT8rrkvLmyyjcEn0wpWSuZJY0HE"
+          "apiKey": ""
         }
-      }
+      },
+      "package": "com.layadiraouf.myuberclone"
     }
   }
 }
