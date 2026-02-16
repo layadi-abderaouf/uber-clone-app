@@ -30,17 +30,17 @@ A mobile taxi booking application built with **React Native** and **Expo**, feat
 ```bash
 git clone https://github.com/your-username/uber-clone-app.git
 cd uber-clone-app
-'''
+```
 
+### 2. run this command
 ```bash
 npm install
 # or
 yarn install
+```
 
-'''
 
-
-Create a .env file in the root of the project with the following keys
+### 3.Create a .env file in the root of the project with the following keys
 
 ```bash
 # Clerk Authentication
@@ -58,8 +58,9 @@ EXPO_PUBLIC_GEOAPIFY_API_KEY=your_geoapify_api_key
 # Stripe Keys
 EXPO_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
-'''
+```
+### 3. run the project
 
-
+```bash
 npx expo start
-
+```
